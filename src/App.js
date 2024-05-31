@@ -1,10 +1,14 @@
 import './App.css';
-import MyCalendar from './MyCalendar';
+import FCalendar from './component/FCalendar';
+import ModalTest from './component/ModalTest';
+import ModalCalendar from './component/ModalCalendar';
 
 function App() {
   return (
     <div className="App"> 
-      <MyCalendar/>
+      {/* <ModalTest /> */}
+      {/* <FCalendar/> */}
+      <ModalCalendar/>
     </div>
   );
 }
